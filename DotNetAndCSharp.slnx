@@ -1,0 +1,41 @@
+<Solution>
+  <Folder Name="/50. .NET 10 Libraries - Numeric Ordering for String Comparison/" Id="90740dd0-5604-48cf-b95d-dcefacd19143">
+    <Project Path="DotNet10.NumericStringOrdering/DotNet10.NumericStringOrdering.csproj" Id="29ca7e15-cbc6-407f-acd1-8496d86ca35e" />
+  </Folder>
+  <Folder Name="/51. .NET 10 Libraries - ISOWeek support for DateOnly/" Id="df0881c4-1524-4a92-ae39-986af73d6326">
+    <Project Path="DotNet10.IsoWeekForDateOnly/DotNet10.IsoWeekForDateOnly.csproj" Id="c0609fcd-304a-4a9e-bc40-13285acc60f2" />
+  </Folder>
+  <Folder Name="/52. .NET 10 Libraries - TimeSpan.FromMilliseconds Overloads/" Id="d4fdc523-3e5e-4a2e-9dd8-791546e07c9d">
+    <Project Path="DotNet10.TimSpanFromMillisecondsOverloads/DotNet10.TimSpanFromMillisecondsOverloads.csproj" Id="eec1af0e-925b-4931-ac93-d9201f25fe50" />
+  </Folder>
+  <Folder Name="/53. .NET 10 Libraries - TryAdd and TryGetValue for OrderedDictionary/" Id="80ad5b0a-4f50-404f-8b7a-5eae2581f77a">
+    <Project Path="DotNet10.OrderedDictionaryTryAddTryGetValue/DotNet10.OrderedDictionaryTryAddTryGetValue.csproj" Id="3e484feb-4f84-4313-b44f-0c8b0c8a65a4" />
+  </Folder>
+  <Folder Name="/54. .NET 10 Libraries - ZipArchive improvements/" Id="373ea31f-5dec-4396-ab1d-1b1ca5bcfa3f">
+    <Project Path="DotNet10.ImprovedZipArchive/DotNet10.ImprovedZipArchive.csproj" Id="f2113d17-44cc-4aa8-9156-434ca8e9c443" />
+  </Folder>
+  <Folder Name="/91. C# 14 - Extension Members/">
+    <Project Path="CSharp14.ExtensionMembers/CSharp14.ExtensionMembers.csproj" Id="65e3b40f-36bd-4ddc-96a0-6969096f1452" />
+  </Folder>
+  <Folder Name="/92. C# 14 - field keyword/">
+    <Project Path="CSharp14.FieldKeyword/CSharp14.FieldKeyword.csproj" />
+  </Folder>
+  <Folder Name="/93. C# 14 - Nameof Unbound Generics/" Id="31bfa423-fbb7-4464-b711-4b58fc05ae37">
+    <Project Path="CSharp14.NameofUnboundGenerics/CSharp14.NameofUnboundGenerics.csproj" Id="bd2f2b71-6114-443d-a4ec-39ef6c285430" />
+  </Folder>
+  <Folder Name="/94. C# 14 - Simple lambda parameters with modifiers/">
+    <Project Path="CSharp14.SimpleLambdaParametersWithModifiers/CSharp14.SimpleLambdaParametersWithModifiers.csproj" Id="c3f03451-dd72-4a57-87f1-cef9b4d32327" />
+  </Folder>
+  <Folder Name="/95. C# 14 - Even more partials/" Id="02ea681e-c7d8-13c7-8484-4ac65e1b71e8">
+    <Project Path="CSharp14.EvenMorePartials/CSharp14.EvenMorePartials.csproj" Id="825b182b-3429-4855-ab7d-edeedf75c306" />
+  </Folder>
+  <Folder Name="/96. C# 14 - User Defined Compound Assignment Operators/">
+    <Project Path="CSharp14.UserDefinedCompoundAssignmentOperators/CSharp14.UserDefinedCompoundAssignmentOperators.csproj" Id="058c8dfa-b541-4c60-a7fb-6fbc6cffadd8" />
+  </Folder>
+  <Folder Name="/97. C# 14 - Null-conditional assignment/">
+    <Project Path="CSharp14.NullConditionalAssignment/CSharp14.NullConditionalAssignment.csproj" Id="0fc700f1-0fa5-4a19-a643-60b1c463f414" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="sources.txt" />
+  </Folder>
+</Solution>
