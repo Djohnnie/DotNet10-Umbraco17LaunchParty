@@ -1,5 +1,11 @@
 ﻿using System.Numerics;
 
+// C# 14 adds new syntax to define extension members.
+// The new syntax enables you to declare extension properties in addition to extension methods.
+// You can also declare extension members that extend the type, rather than an instance of the type.
+// In other words, these new extension members can appear as static members of the type you extend.
+// These extensions can include user defined operators implemented as static extension methods.
+// The following code example shows an example of the different kinds of extension members you can declare.
 
 var list = new List<int> { 1, 2, 3, 4, 5 };
 var large = list.WhereGreaterThan3(3);

@@ -1,5 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// The null-conditional member access operators, ?. and ?[],
+// can now be used on the left hand side of an assignment or compound assignment.
+// Before C# 14, you needed to null-check a variable before assigning to a property.
 
 Customer? customer = null;
 

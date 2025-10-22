@@ -1,4 +1,5 @@
-﻿
+﻿// The token field enables you to write a property accessor body without declaring an explicit backing field.
+// The token field is replaced with a compiler synthesized backing field.
 
 Console.WriteLine(new Person
 {
@@ -11,7 +12,6 @@ Console.WriteLine(new NewsItem
 });
 
 Console.ReadKey();
-
 
 
 public class Person
