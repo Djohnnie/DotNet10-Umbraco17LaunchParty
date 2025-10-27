@@ -41,24 +41,41 @@
   <Folder Name="/17. .NET 10 Libraries - PipeReader support for JSON serializer/">
     <Project Path="DotNet10.PipeReaderWithJsonSerializer/DotNet10.PipeReaderWithJsonSerializer.csproj" Id="7fd05f92-fc3b-426a-acc4-ebaeb9c35630" />
   </Folder>
-  <Folder Name="/60 .NET 10 SDK - File Apps/">
+  <Folder Name="/20. .NET 10 SDK - File Apps/">
     <File Path="app1.cs" />
     <File Path="app2.cs" />
     <File Path="app3.cs" />
   </Folder>
-  <Folder Name="/70. .NET 10 WinForms - Async forms/">
+  <Folder Name="/30. .NET 10 WinForms - Async forms/">
     <Project Path="WinForms10.AsyncForms/WinForms10.AsyncForms.csproj" Id="065dee4b-cee5-4779-bca5-75a3228aa09e" />
   </Folder>
-  <Folder Name="/71. .NET 10 WinForms - Dark mode/">
+  <Folder Name="/31. .NET 10 WinForms - Dark mode/">
     <Project Path="WinForms10.DarkMode/WinForms10.DarkMode.csproj" Id="cd617442-30dd-4fa9-a306-624d694c83a8" />
   </Folder>
-  <Folder Name="/72. .NET 10 WinForms - ScreenCaptureMode API/">
+  <Folder Name="/32. .NET 10 WinForms - ScreenCaptureMode API/">
     <Project Path="WinForms10.ScreenCaptureMode/WinForms10.ScreenCaptureMode.csproj" Id="fe0a69a8-a84c-4706-833f-602bf055d35f" />
   </Folder>
-  <Folder Name="/73. .NET 10 WinForms - Clipboard changes/" />
-  <Folder Name="/80. .NET 10 WPF - New MessageBox Buttons/">
+  <Folder Name="/33. .NET 10 WinForms - Clipboard changes/">
+    <Project Path="WinForms10.ClipboardChanges/WinForms10.ClipboardChanges.csproj" Id="f310191d-caca-4c4d-9e75-d5943f7b623c" />
+  </Folder>
+  <Folder Name="/40. .NET 10 WPF - New MessageBox Buttons/">
     <Project Path="Wpf10.NewMessageBoxButtons/Wpf10.NewMessageBoxButtons.csproj" Id="d7b8c86b-c8d4-4be4-8578-a32eae0cf692" />
   </Folder>
+  <Folder Name="/50. ASP.NET 10 - Support for SSE (server-sent events)/">
+    <Project Path="AspNet10.ServerSentEvents/AspNet10.ServerSentEvents.csproj" Id="10e242e9-67a1-4f88-bbd8-6c122c7dde01" />
+  </Folder>
+  <Folder Name="/60. .NET 10 Blazor - NavigateTo same-page navigation/">
+    <Project Path="Blazor10.NavigateToSamePage/Blazor10.NavigateToSamePage.csproj" Id="d3609df1-c70e-46bf-9422-95876fe29b58" />
+    <Project Path="Blazor9.NavigateToSamePage/Blazor9.NavigateToSamePage.csproj" Id="f0f992ac-8534-49ee-954a-d151502ff4be" />
+  </Folder>
+  <Folder Name="/61. .NET 10 Blazor - Reconnection UI component/">
+    <Project Path="Blazor10.ReconnectionComponent/Blazor10.ReconnectionComponent.csproj" Id="423b640f-4976-4d43-827a-cabd0cf0cbdd" />
+  </Folder>
+  <Folder Name="/70. EF 10 - Vector search support/">
+    <Project Path="EF10.VectorSearchSupportForSqlServer2025/EF10.VectorSearchSupportForSqlServer2025.csproj" Id="bf4456f1-f7ff-4fd1-8ff8-d361a753a71e" />
+  </Folder>
+  <Folder Name="/71. EF 10 - JSON type support/" />
+  <Folder Name="/72. EF 10 - Custom default constraint names/" />
   <Folder Name="/91. C# 14 - Extension Members/">
     <Project Path="CSharp14.ExtensionMembers/CSharp14.ExtensionMembers.csproj" Id="65e3b40f-36bd-4ddc-96a0-6969096f1452" />
   </Folder>
