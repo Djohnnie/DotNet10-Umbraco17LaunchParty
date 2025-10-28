@@ -1,9 +1,11 @@
-using Blazor10.NavigateToSamePage.Components;
+using Blazor10.RouterNotFoundPageParameter.Components;
 
-// Previously, NavigationManager.NavigateTo scrolled to the top of the page for same-page navigations.
-// This behavior has been changed in .NET 10 so that the browser no longer scrolls to the top of the page
-// when navigating to the same page. This means the viewport is no longer reset when making updates
-// to the address for the current page, such as changing the query string or fragment.
+// Blazor now provides an improved way to display a "Not Found" page
+// when navigating to a non-existent page. You can specify a page
+// to render when NavigationManager.NotFound (described in the next section)
+// is invoked by passing a page type to the Router component using the NotFoundPage parameter.
+// The feature supports routing, works across code Status Code Pages Re-execution Middleware,
+// and is compatible even with non-Blazor scenarios.
 
 var builder = WebApplication.CreateBuilder(args);
 

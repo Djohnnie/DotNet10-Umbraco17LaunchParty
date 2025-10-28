@@ -64,6 +64,9 @@
   <Folder Name="/50. ASP.NET 10 - Support for SSE (server-sent events)/">
     <Project Path="AspNet10.ServerSentEvents/AspNet10.ServerSentEvents.csproj" Id="10e242e9-67a1-4f88-bbd8-6c122c7dde01" />
   </Folder>
+  <Folder Name="/51. ASP.NET 10 - New JSON Patch implementation/">
+    <Project Path="AspNet10.JsonPatchDocument/AspNet10.JsonPatchDocument.csproj" Id="6ab030ca-7fb6-4a3b-8fe3-a2e99329ceeb" />
+  </Folder>
   <Folder Name="/60. .NET 10 Blazor - NavigateTo same-page navigation/">
     <Project Path="Blazor10.NavigateToSamePage/Blazor10.NavigateToSamePage.csproj" Id="d3609df1-c70e-46bf-9422-95876fe29b58" />
     <Project Path="Blazor9.NavigateToSamePage/Blazor9.NavigateToSamePage.csproj" Id="f0f992ac-8534-49ee-954a-d151502ff4be" />
@@ -71,10 +74,15 @@
   <Folder Name="/61. .NET 10 Blazor - Reconnection UI component/">
     <Project Path="Blazor10.ReconnectionComponent/Blazor10.ReconnectionComponent.csproj" Id="423b640f-4976-4d43-827a-cabd0cf0cbdd" />
   </Folder>
+  <Folder Name="/62. .NET 10 Blazor - Router has NotFoundPage parameter/">
+    <Project Path="Blazor10.RouterNotFoundPageParameter/Blazor10.RouterNotFoundPageParameter.csproj" Id="3b11bdaa-fdf1-46cd-a766-7fe35abc2b54" />
+  </Folder>
   <Folder Name="/70. EF 10 - Vector search support/">
     <Project Path="EF10.VectorSearchSupportForSqlServer2025/EF10.VectorSearchSupportForSqlServer2025.csproj" Id="bf4456f1-f7ff-4fd1-8ff8-d361a753a71e" />
   </Folder>
-  <Folder Name="/71. EF 10 - JSON type support/" />
+  <Folder Name="/71. EF 10 - JSON type support/">
+    <Project Path="EF10.JsonTypeSupportForSqlServer2025/EF10.JsonTypeSupportForSqlServer2025.csproj" Id="42116c27-2165-4514-8f2a-e0e1eba8147b" />
+  </Folder>
   <Folder Name="/72. EF 10 - Custom default constraint names/" />
   <Folder Name="/91. C# 14 - Extension Members/">
     <Project Path="CSharp14.ExtensionMembers/CSharp14.ExtensionMembers.csproj" Id="65e3b40f-36bd-4ddc-96a0-6969096f1452" />

@@ -5,6 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.AI;
 using OllamaSharp;
 
+// EF 10 brings full support for the recently-introduced vector data type and its supporting
+// VECTOR_DISTANCE() function, available on Azure SQL Database and on SQL Server 2025.
+// The vector data type allows storing embeddings, which are representation of meaning
+// that can be efficiently searched over for similarity, powering AI workloads
+// such as semantic search and retrieval-augmented generation (RAG).
+
 var ollamaEndpoint = "http://localhost:11434";
 var ollamaModel = "nomic-embed-text:latest";
 var embeddingGenerator = new OllamaApiClient(ollamaEndpoint, ollamaModel);

@@ -14,9 +14,6 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Microsoft.Extensions.AI" Version="9.10.1" />
-		<PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.10.1-preview.1.25521.4" />
-		<PackageReference Include="OllamaSharp" Version="5.4.8" />
 	</ItemGroup>
 
 </Project>
