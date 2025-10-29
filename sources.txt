@@ -38,3 +38,4 @@ https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview5/REA
 https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview6/README.md
 https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview7/README.md
 https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/rc1/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/rc2/README.md

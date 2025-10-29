@@ -1,25 +1,20 @@
-﻿using EF10.JsonTypeSupportForSqlServer2025.Entities;
+﻿using EF10.RedactInlineConstants.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EF10.JsonTypeSupportForSqlServer2025;
+namespace EF10.RedactInlineConstants;
 
-internal class BlogDbContext : DbContext
+internal class StudentDbContext : DbContext
 {
-    public DbSet<Blog> Blogs { get; set; }
+    public DbSet<Student> Students { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var connectionString = "Server=.\\SQLDEV;Database=EF10Json;Integrated Security=true;Trusted_Connection=True;Encrypt=false";
+        var connectionString = "Server=.\\SQLDEV;Database=EF10RedactInlineConstants;Integrated Security=true;Trusted_Connection=True;Encrypt=false";
         optionsBuilder.UseSqlServer(connectionString, options =>
         {
-            options.UseCompatibilityLevel(170);
+            options.UseParameterizedCollectionMode(ParameterTranslationMode.Constant);
         });
         optionsBuilder.LogTo(ConsoleWriteLine);
-    }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Blog>().ComplexProperty(b => b.Details, b => b.ToJson());
     }
 
     private void ConsoleWriteLine(string message)

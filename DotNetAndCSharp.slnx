@@ -41,6 +41,9 @@
   <Folder Name="/17. .NET 10 Libraries - PipeReader support for JSON serializer/">
     <Project Path="DotNet10.PipeReaderWithJsonSerializer/DotNet10.PipeReaderWithJsonSerializer.csproj" Id="7fd05f92-fc3b-426a-acc4-ebaeb9c35630" />
   </Folder>
+  <Folder Name="/18. .NET 10 Libraries - Linq LeftJoin and RightJoin/">
+    <Project Path="DotNet10.LinqLeftJoinRightJoin/DotNet10.LinqLeftJoinRightJoin.csproj" Id="b4566d78-9400-435d-8a7c-a3b49358684b" />
+  </Folder>
   <Folder Name="/20. .NET 10 SDK - File Apps/">
     <File Path="app1.cs" />
     <File Path="app2.cs" />
@@ -67,6 +70,9 @@
   <Folder Name="/51. ASP.NET 10 - New JSON Patch implementation/">
     <Project Path="AspNet10.JsonPatchDocument/AspNet10.JsonPatchDocument.csproj" Id="6ab030ca-7fb6-4a3b-8fe3-a2e99329ceeb" />
   </Folder>
+  <Folder Name="/52. ASP.NET 10 - Validation support in Minimal APIs/">
+    <Project Path="AspNet10.MinimalApiValidation/AspNet10.MinimalApiValidation.csproj" Id="b635a7e5-afa6-4bed-bff6-40ff6bfcb178" />
+  </Folder>
   <Folder Name="/60. .NET 10 Blazor - NavigateTo same-page navigation/">
     <Project Path="Blazor10.NavigateToSamePage/Blazor10.NavigateToSamePage.csproj" Id="d3609df1-c70e-46bf-9422-95876fe29b58" />
     <Project Path="Blazor9.NavigateToSamePage/Blazor9.NavigateToSamePage.csproj" Id="f0f992ac-8534-49ee-954a-d151502ff4be" />
@@ -83,7 +89,25 @@
   <Folder Name="/71. EF 10 - JSON type support/">
     <Project Path="EF10.JsonTypeSupportForSqlServer2025/EF10.JsonTypeSupportForSqlServer2025.csproj" Id="42116c27-2165-4514-8f2a-e0e1eba8147b" />
   </Folder>
-  <Folder Name="/72. EF 10 - Custom default constraint names/" />
+  <Folder Name="/72. EF 10 - Custom default constraint names/">
+    <Project Path="EF10.CustomDefaultConstraintNames/EF10.CustomDefaultConstraintNames.csproj" Id="5b8e335e-2b79-4c86-8ffd-a81a0c2e9ed4" />
+  </Folder>
+  <Folder Name="/73. EF 10 - Complex types improvements/">
+    <Project Path="EF10.ComplexTypesImprovements/EF10.ComplexTypesImprovements.csproj" Id="e4b63671-b735-42fd-9a29-9c17008600ea" />
+  </Folder>
+  <Folder Name="/74. EF 10 - LeftJoin and RightJoin/">
+    <Project Path="EF10.LeftJoinAndRightJoin/EF10.LeftJoinAndRightJoin.csproj" Id="6e738329-d12c-498f-bacb-af894a8784ae" />
+  </Folder>
+  <Folder Name="/75. EF 10 - Improved translation for parameterized collection/">
+    <Project Path="EF10.ParameterizedCollectionTranslation/EF10.ParameterizedCollectionTranslation.csproj" Id="a3084d21-b843-454d-a9cb-6d3419d64a91" />
+  </Folder>
+  <Folder Name="/76. EF 10 - Redact inlined constants from logging by default/">
+    <Project Path="EF10.RedactInlineConstants/EF10.RedactInlineConstants.csproj" Id="f01ae8f4-c416-4f29-a42d-fdc7f76e03d5" />
+  </Folder>
+  <Folder Name="/77. EF 10 - ExecuteUpdateAsync now accepts a regular, non-expression lambda/">
+    <Project Path="EF10.NonExpressionExecuteUpdateAsync/EF10.NonExpressionExecuteUpdateAsync.csproj" Id="fc3f05b9-3966-4010-b223-35f9cf08b93c" />
+    <Project Path="EF9.NonExpressionExecuteUpdateAsync/EF9.NonExpressionExecuteUpdateAsync.csproj" Id="da688c1f-45ac-404e-b957-2a566917981f" />
+  </Folder>
   <Folder Name="/91. C# 14 - Extension Members/">
     <Project Path="CSharp14.ExtensionMembers/CSharp14.ExtensionMembers.csproj" Id="65e3b40f-36bd-4ddc-96a0-6969096f1452" />
   </Folder>

@@ -1,15 +1,15 @@
-﻿using EF10.JsonTypeSupportForSqlServer2025.Entities;
+﻿using EF10.ComplexTypesImprovements.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EF10.JsonTypeSupportForSqlServer2025;
+namespace EF10.ComplexTypesImprovements;
 
-internal class BlogDbContext : DbContext
+internal class ShopDbContext : DbContext
 {
-    public DbSet<Blog> Blogs { get; set; }
+    public DbSet<Customer> Customers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var connectionString = "Server=.\\SQLDEV;Database=EF10Json;Integrated Security=true;Trusted_Connection=True;Encrypt=false";
+        var connectionString = "Server=.\\SQLDEV;Database=EF10ComplexTypesImprovements;Integrated Security=true;Trusted_Connection=True;Encrypt=false";
         optionsBuilder.UseSqlServer(connectionString, options =>
         {
             options.UseCompatibilityLevel(170);
@@ -19,7 +19,12 @@ internal class BlogDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Blog>().ComplexProperty(b => b.Details, b => b.ToJson());
+        modelBuilder.Entity<Customer>(entity =>
+        {
+            entity.ComplexProperty(p => p.ShippingAddress);
+            entity.ComplexProperty(p => p.BillingAddress);
+            entity.ComplexProperty(p => p.BusinessInfo, b => b.ToJson());
+        });
     }
 
     private void ConsoleWriteLine(string message)
