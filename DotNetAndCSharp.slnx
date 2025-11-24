@@ -73,6 +73,9 @@
   <Folder Name="/52. ASP.NET 10 - Validation support in Minimal APIs/">
     <Project Path="AspNet10.MinimalApiValidation/AspNet10.MinimalApiValidation.csproj" Id="b635a7e5-afa6-4bed-bff6-40ff6bfcb178" />
   </Folder>
+  <Folder Name="/53. ASP.NET 10 - localhost Top-Level Domain/">
+    <Project Path="AspNet10.LocalhostTld/AspNet10.LocalhostTld.csproj" Id="bb9de276-24b5-4bc3-b650-57d5f3719e94" />
+  </Folder>
   <Folder Name="/60. .NET 10 Blazor - NavigateTo same-page navigation/">
     <Project Path="Blazor10.NavigateToSamePage/Blazor10.NavigateToSamePage.csproj" Id="d3609df1-c70e-46bf-9422-95876fe29b58" />
     <Project Path="Blazor9.NavigateToSamePage/Blazor9.NavigateToSamePage.csproj" Id="f0f992ac-8534-49ee-954a-d151502ff4be" />
